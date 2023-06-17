@@ -230,6 +230,15 @@ h3 {
 }
 
 
+@media (max-width:600) {
+    .service{
+        margin-top: 0px;
+        margin-bottom: 25px;
+
+    }
+    
+}
+
 @media (min-width:800px) {
     .services--section{
         /* max-width: 90%; */
@@ -383,6 +392,15 @@ h3 {
         border-radius: 10px;
     }
     
+}
+
+@nedia(max-width:600px){
+    .my-work-section{
+        width: 90%;
+    }
+    .portfolio{
+        margin: 0 auto;
+    }
 }
 
 /* Footer section */
