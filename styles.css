@@ -353,7 +353,7 @@ h3 {
 
 .portfolio{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
     max-width:1200px;
     margin: 0 auto;
     grid-column-gap: 15px;
@@ -385,21 +385,24 @@ h3 {
     opacity: .5;
 }
 
-@media (max-width:1000px) {
+@media (max-width:500px) {
     .portfolio--item{
         grid-column-gap: 25px;
-            grid-row-gap: 25px;
+        grid-row-gap: 25px;
         border-radius: 10px;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+
     }
+
+    
     
 }
 
 @nedia(max-width:600px){
-    .my-work-section{
-        width: 90%;
-    }
     .portfolio{
-        margin: 0 auto;
+        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     }
 }
 
