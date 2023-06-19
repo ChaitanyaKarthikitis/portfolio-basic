@@ -259,9 +259,7 @@ h3 {
 
 
 @media (min-width:800px) {
-    .services--section{
-        /* max-width: 90%; */
-    }
+    
     .services{
         display: flex;
         /* max-width: %; */
@@ -437,11 +435,7 @@ h3 {
     
 }
 
-@nedia(max-width:600px){
-    .portfolio{
-        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
-    }
-}
+
 
 /* Footer section */
 
